@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "ArctMonkey.TaskPlanner.Domain.Logic/1.0.0": {
+        "dependencies": {
+          "ArctMonkey.TaskPlanner.Domain.Models.": "1.0.0"
+        },
+        "runtime": {
+          "ArctMonkey.TaskPlanner.Domain.Logic.dll": {}
+        }
+      },
+      "ArctMonkey.TaskPlanner.Domain.Models./1.0.0": {
+        "runtime": {
+          "ArctMonkey.TaskPlanner.Domain.Models..dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ArctMonkey.TaskPlanner.Domain.Logic/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ArctMonkey.TaskPlanner.Domain.Models./1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

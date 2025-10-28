@@ -7,4 +7,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\ArctMonkey.TaskPlanner.Domain.Logic\ArctMonkey.TaskPlanner.Domain.Logic.csproj" />
+    <ProjectReference Include="..\ArctMonkey.TaskPlanner.Domain.Models\ArctMonkey.TaskPlanner.Domain.Models..csproj" />
+  </ItemGroup>
+
 </Project>

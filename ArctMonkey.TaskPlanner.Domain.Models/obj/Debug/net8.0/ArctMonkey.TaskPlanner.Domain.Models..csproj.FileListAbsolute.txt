@@ -1,0 +1,12 @@
+C:\Projects\TaskPlanner_Pyvovarov\ArctMonkey.TaskPlanner.Domain.Models\bin\Debug\net8.0\ArctMonkey.TaskPlanner.Domain.Models..deps.json
+C:\Projects\TaskPlanner_Pyvovarov\ArctMonkey.TaskPlanner.Domain.Models\bin\Debug\net8.0\ArctMonkey.TaskPlanner.Domain.Models..dll
+C:\Projects\TaskPlanner_Pyvovarov\ArctMonkey.TaskPlanner.Domain.Models\bin\Debug\net8.0\ArctMonkey.TaskPlanner.Domain.Models..pdb
+C:\Projects\TaskPlanner_Pyvovarov\ArctMonkey.TaskPlanner.Domain.Models\obj\Debug\net8.0\ArctMonkey.TaskPlanner.Domain.Models..GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\TaskPlanner_Pyvovarov\ArctMonkey.TaskPlanner.Domain.Models\obj\Debug\net8.0\ArctMonkey.TaskPlanner.Domain.Models..AssemblyInfoInputs.cache
+C:\Projects\TaskPlanner_Pyvovarov\ArctMonkey.TaskPlanner.Domain.Models\obj\Debug\net8.0\ArctMonkey.TaskPlanner.Domain.Models..AssemblyInfo.cs
+C:\Projects\TaskPlanner_Pyvovarov\ArctMonkey.TaskPlanner.Domain.Models\obj\Debug\net8.0\ArctMonkey.TaskPlanner.Domain.Models..csproj.CoreCompileInputs.cache
+C:\Projects\TaskPlanner_Pyvovarov\ArctMonkey.TaskPlanner.Domain.Models\obj\Debug\net8.0\ArctMonkey.TaskPlanner.Domain.Models..sourcelink.json
+C:\Projects\TaskPlanner_Pyvovarov\ArctMonkey.TaskPlanner.Domain.Models\obj\Debug\net8.0\ArctMonkey.TaskPlanner.Domain.Models..dll
+C:\Projects\TaskPlanner_Pyvovarov\ArctMonkey.TaskPlanner.Domain.Models\obj\Debug\net8.0\refint\ArctMonkey.TaskPlanner.Domain.Models..dll
+C:\Projects\TaskPlanner_Pyvovarov\ArctMonkey.TaskPlanner.Domain.Models\obj\Debug\net8.0\ArctMonkey.TaskPlanner.Domain.Models..pdb
+C:\Projects\TaskPlanner_Pyvovarov\ArctMonkey.TaskPlanner.Domain.Models\obj\Debug\net8.0\ref\ArctMonkey.TaskPlanner.Domain.Models..dll

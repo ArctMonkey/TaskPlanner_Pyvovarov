@@ -1,0 +1,16 @@
+C:\Projects\TaskPlanner_Pyvovarov\ArctMonkey.TaskPlanner.Domain.Logic\bin\Debug\net8.0\ArctMonkey.TaskPlanner.Domain.Logic.deps.json
+C:\Projects\TaskPlanner_Pyvovarov\ArctMonkey.TaskPlanner.Domain.Logic\bin\Debug\net8.0\ArctMonkey.TaskPlanner.Domain.Logic.dll
+C:\Projects\TaskPlanner_Pyvovarov\ArctMonkey.TaskPlanner.Domain.Logic\bin\Debug\net8.0\ArctMonkey.TaskPlanner.Domain.Logic.pdb
+C:\Projects\TaskPlanner_Pyvovarov\ArctMonkey.TaskPlanner.Domain.Logic\bin\Debug\net8.0\ArctMonkey.TaskPlanner.Domain.Models..dll
+C:\Projects\TaskPlanner_Pyvovarov\ArctMonkey.TaskPlanner.Domain.Logic\bin\Debug\net8.0\ArctMonkey.TaskPlanner.Domain.Models..pdb
+C:\Projects\TaskPlanner_Pyvovarov\ArctMonkey.TaskPlanner.Domain.Logic\obj\Debug\net8.0\ArctMonkey.TaskPlanner.Domain.Logic.csproj.AssemblyReference.cache
+C:\Projects\TaskPlanner_Pyvovarov\ArctMonkey.TaskPlanner.Domain.Logic\obj\Debug\net8.0\ArctMonkey.TaskPlanner.Domain.Logic.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\TaskPlanner_Pyvovarov\ArctMonkey.TaskPlanner.Domain.Logic\obj\Debug\net8.0\ArctMonkey.TaskPlanner.Domain.Logic.AssemblyInfoInputs.cache
+C:\Projects\TaskPlanner_Pyvovarov\ArctMonkey.TaskPlanner.Domain.Logic\obj\Debug\net8.0\ArctMonkey.TaskPlanner.Domain.Logic.AssemblyInfo.cs
+C:\Projects\TaskPlanner_Pyvovarov\ArctMonkey.TaskPlanner.Domain.Logic\obj\Debug\net8.0\ArctMonkey.TaskPlanner.Domain.Logic.csproj.CoreCompileInputs.cache
+C:\Projects\TaskPlanner_Pyvovarov\ArctMonkey.TaskPlanner.Domain.Logic\obj\Debug\net8.0\ArctMonkey.TaskPlanner.Domain.Logic.sourcelink.json
+C:\Projects\TaskPlanner_Pyvovarov\ArctMonkey.TaskPlanner.Domain.Logic\obj\Debug\net8.0\ArctMonk.7B751FC8.Up2Date
+C:\Projects\TaskPlanner_Pyvovarov\ArctMonkey.TaskPlanner.Domain.Logic\obj\Debug\net8.0\ArctMonkey.TaskPlanner.Domain.Logic.dll
+C:\Projects\TaskPlanner_Pyvovarov\ArctMonkey.TaskPlanner.Domain.Logic\obj\Debug\net8.0\refint\ArctMonkey.TaskPlanner.Domain.Logic.dll
+C:\Projects\TaskPlanner_Pyvovarov\ArctMonkey.TaskPlanner.Domain.Logic\obj\Debug\net8.0\ArctMonkey.TaskPlanner.Domain.Logic.pdb
+C:\Projects\TaskPlanner_Pyvovarov\ArctMonkey.TaskPlanner.Domain.Logic\obj\Debug\net8.0\ref\ArctMonkey.TaskPlanner.Domain.Logic.dll

@@ -12,3 +12,10 @@ C:\Projects\TaskPlanner_Pyvovarov\ArctMonkey.TaskPlanner\obj\Debug\net8.0\refint
 C:\Projects\TaskPlanner_Pyvovarov\ArctMonkey.TaskPlanner\obj\Debug\net8.0\ArctMonkey.TaskPlanner.pdb
 C:\Projects\TaskPlanner_Pyvovarov\ArctMonkey.TaskPlanner\obj\Debug\net8.0\ArctMonkey.TaskPlanner.genruntimeconfig.cache
 C:\Projects\TaskPlanner_Pyvovarov\ArctMonkey.TaskPlanner\obj\Debug\net8.0\ref\ArctMonkey.TaskPlanner.dll
+C:\Projects\TaskPlanner_Pyvovarov\ArctMonkey.TaskPlanner\bin\Debug\net8.0\ArctMonkey.TaskPlanner.Domain.Logic.dll
+C:\Projects\TaskPlanner_Pyvovarov\ArctMonkey.TaskPlanner\bin\Debug\net8.0\ArctMonkey.TaskPlanner.Domain.Models..dll
+C:\Projects\TaskPlanner_Pyvovarov\ArctMonkey.TaskPlanner\bin\Debug\net8.0\ArctMonkey.TaskPlanner.Domain.Logic.pdb
+C:\Projects\TaskPlanner_Pyvovarov\ArctMonkey.TaskPlanner\bin\Debug\net8.0\ArctMonkey.TaskPlanner.Domain.Models..pdb
+C:\Projects\TaskPlanner_Pyvovarov\ArctMonkey.TaskPlanner\obj\Debug\net8.0\ArctMonkey.TaskPlanner.csproj.AssemblyReference.cache
+C:\Projects\TaskPlanner_Pyvovarov\ArctMonkey.TaskPlanner\obj\Debug\net8.0\ArctMonkey.TaskPlanner.sourcelink.json
+C:\Projects\TaskPlanner_Pyvovarov\ArctMonkey.TaskPlanner\obj\Debug\net8.0\ArctMonk.EBEFECED.Up2Date
