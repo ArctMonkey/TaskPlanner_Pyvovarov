@@ -1,0 +1,14 @@
+C:\Projects\TaskPlanner_Pyvovarov\ArctMonkey.TaskPlanner\bin\Debug\net8.0\ArctMonkey.TaskPlanner.exe
+C:\Projects\TaskPlanner_Pyvovarov\ArctMonkey.TaskPlanner\bin\Debug\net8.0\ArctMonkey.TaskPlanner.deps.json
+C:\Projects\TaskPlanner_Pyvovarov\ArctMonkey.TaskPlanner\bin\Debug\net8.0\ArctMonkey.TaskPlanner.runtimeconfig.json
+C:\Projects\TaskPlanner_Pyvovarov\ArctMonkey.TaskPlanner\bin\Debug\net8.0\ArctMonkey.TaskPlanner.dll
+C:\Projects\TaskPlanner_Pyvovarov\ArctMonkey.TaskPlanner\bin\Debug\net8.0\ArctMonkey.TaskPlanner.pdb
+C:\Projects\TaskPlanner_Pyvovarov\ArctMonkey.TaskPlanner\obj\Debug\net8.0\ArctMonkey.TaskPlanner.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\TaskPlanner_Pyvovarov\ArctMonkey.TaskPlanner\obj\Debug\net8.0\ArctMonkey.TaskPlanner.AssemblyInfoInputs.cache
+C:\Projects\TaskPlanner_Pyvovarov\ArctMonkey.TaskPlanner\obj\Debug\net8.0\ArctMonkey.TaskPlanner.AssemblyInfo.cs
+C:\Projects\TaskPlanner_Pyvovarov\ArctMonkey.TaskPlanner\obj\Debug\net8.0\ArctMonkey.TaskPlanner.csproj.CoreCompileInputs.cache
+C:\Projects\TaskPlanner_Pyvovarov\ArctMonkey.TaskPlanner\obj\Debug\net8.0\ArctMonkey.TaskPlanner.dll
+C:\Projects\TaskPlanner_Pyvovarov\ArctMonkey.TaskPlanner\obj\Debug\net8.0\refint\ArctMonkey.TaskPlanner.dll
+C:\Projects\TaskPlanner_Pyvovarov\ArctMonkey.TaskPlanner\obj\Debug\net8.0\ArctMonkey.TaskPlanner.pdb
+C:\Projects\TaskPlanner_Pyvovarov\ArctMonkey.TaskPlanner\obj\Debug\net8.0\ArctMonkey.TaskPlanner.genruntimeconfig.cache
+C:\Projects\TaskPlanner_Pyvovarov\ArctMonkey.TaskPlanner\obj\Debug\net8.0\ref\ArctMonkey.TaskPlanner.dll
