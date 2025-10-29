@@ -1,47 +1,128 @@
 ﻿using ClassLibrary1.Domain.Models;
 using ClassLibrary1.Domain.Models.Enums;
-namespace TaskPlanner.Domain.Logic;
+using System;
+using System.Globalization;
+using TaskPlanner.Domain.Logic;
 
-internal static class Program
+namespace TaskPlanner.App
 {
-    public static object SimpleTaskPlanner { get; private set; }
-
-    public static void Main(string[] args)
+    internal static class Launcher
     {
-        Console.OutputEncoding = System.Text.Encoding.UTF8;
-        Console.WriteLine("Введіть кількість задач: ");
-        string input = Console.ReadLine();
+        public static object TaskManager { get; private set; }
 
-        if (int.TryParse(input, out int amount))
+        public static void Main(string[] args)
         {
-            WorkItem[] workItems = new WorkItem[amount];
-            for (int i = 0; i < amount; i++)
+            Console.OutputEncoding = System.Text.Encoding.UTF8;
+            Console.Title = "★ Task Planner Console Application ★";
+            Console.ForegroundColor = ConsoleColor.Cyan;
+
+            PrintHeader();
+
+            Console.ForegroundColor = ConsoleColor.White;
+            Console.Write("→ Enter the number of tasks to create: ");
+            string userInput = Console.ReadLine();
+
+            if (!int.TryParse(userInput, out int totalTasks) || totalTasks <= 0)
             {
-                WorkItem workItem = new WorkItem();
-                /* Console.WriteLine("Введіть дані товару:\n"); */
-                Console.WriteLine("Введіть назву:\n");
-                workItem.Title = Console.ReadLine();
-                Console.WriteLine("Введіть дату виконання (формат: dd.mm.yyyy):\n");
-                string dataTime = Console.ReadLine();
-                workItem.DueDate = DateTime.ParseExact(
-                    dataTime,
-                    "dd.MM.yyyy",
-                    System.Globalization.CultureInfo.InvariantCulture
-                ); Console.WriteLine("Введіть пріоритет об'єкта (1 – Немає, 2 – Низький, 3 – Середній, 4 – Високий, 5 – Терміново):\t");
-                int k = int.Parse(Console.ReadLine()) - 1;
-                workItem.Priority = (Priority)k;
-                workItems[i] = workItem;
+                ShowError("Invalid number! Please enter a positive integer.");
+                return;
             }
-            SimpleTaskPlanner simpleTaskPlanner = new SimpleTaskPlanner();
-            WorkItem[] sortedItems = simpleTaskPlanner.CreatePlan(workItems);
-            foreach (WorkItem item in sortedItems)
+
+            WorkItem[] tasks = new WorkItem[totalTasks];
+            Console.Clear();
+            Console.WriteLine();
+            PrintSubHeader($"Task Creation Mode ({totalTasks} tasks)");
+
+            for (int i = 0; i < totalTasks; i++)
             {
-                Console.WriteLine(item.ToString());
+                Console.ForegroundColor = ConsoleColor.Yellow;
+                Console.WriteLine($"\n╔══════════════════════════════════════╗");
+                Console.WriteLine($"║ Creating task #{i + 1} of {totalTasks,-20}║");
+                Console.WriteLine($"╚══════════════════════════════════════╝");
+                Console.ResetColor();
+
+                WorkItem task = new WorkItem();
+
+                Console.Write("📝 Title: ");
+                task.Title = Console.ReadLine();
+
+                Console.Write("📅 Due date (dd.MM.yyyy): ");
+                string dateInput = Console.ReadLine();
+
+                try
+                {
+                    task.DueDate = DateTime.ParseExact(dateInput, "dd.MM.yyyy", CultureInfo.InvariantCulture);
+                }
+                catch
+                {
+                    ShowError("Invalid date format! Using today’s date instead.");
+                    task.DueDate = DateTime.Today;
+                }
+
+                Console.WriteLine("🔥 Priority (1 – None, 2 – Low, 3 – Medium, 4 – High, 5 – Urgent): ");
+                Console.Write("→ ");
+                if (int.TryParse(Console.ReadLine(), out int p) && p >= 1 && p <= 5)
+                {
+                    task.Priority = (Priority)(p - 1);
+                }
+                else
+                {
+                    ShowError("Invalid priority! Default set to 'None'.");
+                    task.Priority = Priority.None;
+                }
+
+                tasks[i] = task;
+                Console.ForegroundColor = ConsoleColor.Green;
+                Console.WriteLine("✔ Task added successfully!");
+                Console.ResetColor();
             }
+
+            Console.Clear();
+            PrintSubHeader("📋 Sorted Task List");
+
+            SimpleTaskPlanner planner = new SimpleTaskPlanner();
+            WorkItem[] sorted = planner.CreatePlan(tasks);
+
+            Console.ForegroundColor = ConsoleColor.Magenta;
+            foreach (var item in sorted)
+            {
+                Console.WriteLine("-------------------------------------------");
+                Console.WriteLine($"• Title: {item.Title}");
+                Console.WriteLine($"• Due Date: {item.DueDate:dd.MM.yyyy}");
+                Console.WriteLine($"• Priority: {item.Priority}");
+            }
+
+            Console.ResetColor();
+            Console.WriteLine("\n===========================================");
+            Console.ForegroundColor = ConsoleColor.Cyan;
+            Console.WriteLine("   Thank you for using Task Planner!");
+            Console.WriteLine("===========================================\n");
+            Console.ResetColor();
         }
-        else
+
+        private static void PrintHeader()
         {
-            Console.WriteLine("Помилка: потрібно ввести число!");
+            Console.ForegroundColor = ConsoleColor.Cyan;
+            Console.WriteLine("===========================================");
+            Console.WriteLine("         🧭 SIMPLE TASK PLANNER v2.0       ");
+            Console.WriteLine("===========================================\n");
+            Console.ResetColor();
+        }
+
+        private static void PrintSubHeader(string title)
+        {
+            Console.ForegroundColor = ConsoleColor.Blue;
+            Console.WriteLine("===========================================");
+            Console.WriteLine($"   {title}");
+            Console.WriteLine("===========================================\n");
+            Console.ResetColor();
+        }
+
+        private static void ShowError(string message)
+        {
+            Console.ForegroundColor = ConsoleColor.Red;
+            Console.WriteLine($"⚠ {message}");
+            Console.ResetColor();
         }
     }
 }

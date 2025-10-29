@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ArctMonkey.TaskPlanner")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+16648d497e53026cecb8ff87df6feca0477a6676")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cd73dff91c62a1cccbcdac4c3e648497b4e28451")]
 [assembly: System.Reflection.AssemblyProductAttribute("ArctMonkey.TaskPlanner")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ArctMonkey.TaskPlanner")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
